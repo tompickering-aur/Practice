@@ -25,7 +25,7 @@ Navigate to London, and then it is the first file: listings.csv.gz
 Date downloaded: 09/06/2026
 
 ## Prerequisites
-Download data from airbnb and save in drive in folder named: Colab Folder. 
+Download data from airbnb and save in drive in folder named: Colab Notebooks. 
 Give access to drive from code
 
 ## Installation
