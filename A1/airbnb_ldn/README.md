@@ -1,35 +1,40 @@
-# README - Property prices in the city of London
+# README - Airbnb Hosts in London
 
-## About the project
-Are price rises in the city of London correlated which an increase in demand for properties? 
-## Data
-Data files from Airbnb
+## Business Questions: Do newer Airbnb hosts perform worse in performance metrics (response rate and review score) than older hosts, in London?
 
-## Project Structure
-- data/: datasets
-- notebooks/: analysis
-- outputs/: figures
+## Perspective: Are users getting a worse experience in London from newer hosts?
+
+## City: London
+
+## Hypotheses:
+H1: More than 50% of the current host base is made up of hosts that joined in the last 5 years
+H2: Hosts than joined in the last 5 years have a worse response rate when compared when the older hosts
+H3: Hosts than joined in the last 5 years have a worse review score when compared when the older hosts
+
+## Folder Structure:
+README - this file, explaining the setup of the folder
+data_raw - the untouched data, downloaded from airbnb
+data_clean - the result after all data cleaning performed
+outputs - any graphs and numbers produced uploaded here
+posted - the finished code sent for review
+
+## Data:
+Data files from Airbnb:
+https://insideairbnb.com/get-the-data/
+Navigate to London, and then it is the first file: listings.csv.gz
+Date downloaded: 09/06/2026
 
 ## Prerequisites
-Any packages or software people have to download to be able to run your code.
+Download data from airbnb and save in drive in folder named: Colab Folder. 
+Give access to drive from code
 
-### Installation
-Any steps needed to install the above.
+## Installation
+N/A
 
 ## Usage
-What does your notebook do
+Notebook takes London airbnb listings, cleans data and then groups it to produce numbers and graphs to answer the business question and three hypothesis above
 
 ## Contact
-Your Name - Tom Pickering
+Your Name - Tom Pickering thomas.pickering@iese.net
 Project Link: https://github.com/tompickering-aur/Practice
-
-
-# YOU SOMETIMES ALSO SEE:
-
-## Contributing
-Any contributions or potential contributions to the project (if in GitHub for example).
-
-
-## License
-Any licenses if you developed a coding product.
 
